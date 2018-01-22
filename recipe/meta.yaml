@@ -10,8 +10,8 @@ package:
 source:
   fn: dplyr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/dplyr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/dplyr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/dplyr/dplyr_{{ version }}.tar.gz
   sha256: 7b1fc90750fbb46483423da6721832c545d37b157f4f3355784a65e50fada8c2
 
 
